@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848310CC195CAF4B00D83993 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848310CB195CAF4B00D83993 /* Cocoa.framework */; };
+		848310CE195CAF4B00D83993 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848310CD195CAF4B00D83993 /* AppleScriptObjC.framework */; };
+		848310D8195CAF4B00D83993 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848310D6195CAF4B00D83993 /* InfoPlist.strings */; };
+		848310DA195CAF4B00D83993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848310D9195CAF4B00D83993 /* main.m */; };
+		848310DE195CAF4B00D83993 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 848310DC195CAF4B00D83993 /* Credits.rtf */; };
+		848310E0195CAF4B00D83993 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 848310DF195CAF4B00D83993 /* AppDelegate.applescript */; };
+		848310E3195CAF4B00D83993 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848310E1195CAF4B00D83993 /* MainMenu.xib */; };
+		84EB1DB8195DB2B900B864AE /* Elephant.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84EB1DB7195DB2B900B864AE /* Elephant.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		848310C8195CAF4B00D83993 /* SwapMyJSS3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwapMyJSS3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848310CB195CAF4B00D83993 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		848310CD195CAF4B00D83993 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		848310D0195CAF4B00D83993 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		848310D1195CAF4B00D83993 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		848310D2195CAF4B00D83993 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		848310D5195CAF4B00D83993 /* SwapMyJSS3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwapMyJSS3-Info.plist"; sourceTree = "<group>"; };
+		848310D7195CAF4B00D83993 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		848310D9195CAF4B00D83993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		848310DB195CAF4B00D83993 /* SwapMyJSS3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwapMyJSS3-Prefix.pch"; sourceTree = "<group>"; };
+		848310DD195CAF4B00D83993 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		848310DF195CAF4B00D83993 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		848310E2195CAF4B00D83993 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		84EB1DB7195DB2B900B864AE /* Elephant.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Elephant.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848310C5195CAF4B00D83993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848310CC195CAF4B00D83993 /* Cocoa.framework in Frameworks */,
+				848310CE195CAF4B00D83993 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848310BF195CAF4B00D83993 = {
+			isa = PBXGroup;
+			children = (
+				84EB1DB7195DB2B900B864AE /* Elephant.icns */,
+				848310D3195CAF4B00D83993 /* SwapMyJSS3 */,
+				848310CA195CAF4B00D83993 /* Frameworks */,
+				848310C9195CAF4B00D83993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848310C9195CAF4B00D83993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848310C8195CAF4B00D83993 /* SwapMyJSS3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848310CA195CAF4B00D83993 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848310CB195CAF4B00D83993 /* Cocoa.framework */,
+				848310CD195CAF4B00D83993 /* AppleScriptObjC.framework */,
+				848310CF195CAF4B00D83993 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		848310CF195CAF4B00D83993 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848310D0195CAF4B00D83993 /* AppKit.framework */,
+				848310D1195CAF4B00D83993 /* CoreData.framework */,
+				848310D2195CAF4B00D83993 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		848310D3195CAF4B00D83993 /* SwapMyJSS3 */ = {
+			isa = PBXGroup;
+			children = (
+				848310DF195CAF4B00D83993 /* AppDelegate.applescript */,
+				848310E1195CAF4B00D83993 /* MainMenu.xib */,
+				848310D4195CAF4B00D83993 /* Supporting Files */,
+			);
+			path = SwapMyJSS3;
+			sourceTree = "<group>";
+		};
+		848310D4195CAF4B00D83993 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				848310D5195CAF4B00D83993 /* SwapMyJSS3-Info.plist */,
+				848310D6195CAF4B00D83993 /* InfoPlist.strings */,
+				848310D9195CAF4B00D83993 /* main.m */,
+				848310DB195CAF4B00D83993 /* SwapMyJSS3-Prefix.pch */,
+				848310DC195CAF4B00D83993 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848310C7195CAF4B00D83993 /* SwapMyJSS3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848310E6195CAF4B00D83993 /* Build configuration list for PBXNativeTarget "SwapMyJSS3" */;
+			buildPhases = (
+				848310C4195CAF4B00D83993 /* Sources */,
+				848310C5195CAF4B00D83993 /* Frameworks */,
+				848310C6195CAF4B00D83993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwapMyJSS3;
+			productName = SwapMyJSS3;
+			productReference = 848310C8195CAF4B00D83993 /* SwapMyJSS3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848310C0195CAF4B00D83993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Partners;
+			};
+			buildConfigurationList = 848310C3195CAF4B00D83993 /* Build configuration list for PBXProject "SwapMyJSS3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 848310BF195CAF4B00D83993;
+			productRefGroup = 848310C9195CAF4B00D83993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848310C7195CAF4B00D83993 /* SwapMyJSS3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848310C6195CAF4B00D83993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848310D8195CAF4B00D83993 /* InfoPlist.strings in Resources */,
+				848310DE195CAF4B00D83993 /* Credits.rtf in Resources */,
+				848310E3195CAF4B00D83993 /* MainMenu.xib in Resources */,
+				84EB1DB8195DB2B900B864AE /* Elephant.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848310C4195CAF4B00D83993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848310DA195CAF4B00D83993 /* main.m in Sources */,
+				848310E0195CAF4B00D83993 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		848310D6195CAF4B00D83993 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848310D7195CAF4B00D83993 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		848310DC195CAF4B00D83993 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848310DD195CAF4B00D83993 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		848310E1195CAF4B00D83993 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848310E2195CAF4B00D83993 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848310E4195CAF4B00D83993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		848310E5195CAF4B00D83993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		848310E7195CAF4B00D83993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwapMyJSS3/SwapMyJSS3-Prefix.pch";
+				INFOPLIST_FILE = "SwapMyJSS3/SwapMyJSS3-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		848310E8195CAF4B00D83993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwapMyJSS3/SwapMyJSS3-Prefix.pch";
+				INFOPLIST_FILE = "SwapMyJSS3/SwapMyJSS3-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848310C3195CAF4B00D83993 /* Build configuration list for PBXProject "SwapMyJSS3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848310E4195CAF4B00D83993 /* Debug */,
+				848310E5195CAF4B00D83993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848310E6195CAF4B00D83993 /* Build configuration list for PBXNativeTarget "SwapMyJSS3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848310E7195CAF4B00D83993 /* Debug */,
+				848310E8195CAF4B00D83993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848310C0195CAF4B00D83993 /* Project object */;
+}
