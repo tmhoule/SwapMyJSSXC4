@@ -8,7 +8,7 @@
 
 script AppDelegate
 	property parent : class "NSObject"
-    property jssServer : "Checking..."
+    property jssServer : "Checking...  One moment please."
 	property statusText : "Initializing...."
     property userID : "anon123"
     property emailAddr : "Peas@partners.org"
@@ -18,7 +18,9 @@ script AppDelegate
     property runInventory : false
     property runManage : false
     property defaults : missing value
-
+    property serverData : {}
+    property theArrayController : missing value
+    
 	-- IBOutlets
 	property theWindow : missing value
     property prefsWindow: missing value
@@ -96,20 +98,38 @@ script AppDelegate
         tell theWindow to displayIfNeeded()
         tell prefsWindow to makeFirstResponder_(missing value)
         
-        tell defaults to set prodServerKey to objectForKey_("prodServer")
-        tell defaults to set testServerKey to objectForKey_("testServer")
-        tell defaults to set devServerKey to objectForKey_("devServer")
-        tell defaults to set prodEnrollKeyKey to objectForKey_("prodEnrollKey")
-        tell defaults to set testEnrollKeyKey to objectForKey_("testEnrollKey")
-        tell defaults to set devEnrollKeyKey to objectForKey_("devEnrollKey")
+        tell defaults to set oneServerKey to objectForKey_("oneServerName")
+        tell defaults to set oneServerAddrKey to objectForKey_("oneServerAddr")
+        tell defaults to set oneEnrollKeyKey to objectForKey_("oneEnrollKey")
+
+        tell defaults to set twoServerKey to objectForKey_("twoServerName")
+        tell defaults to set twoServerAddrKey to objectForKey_("twoServerAddr")
+        tell defaults to set twoEnrollKeyKey to objectForKey_("twoEnrollKey")
+
+        tell defaults to set threeServerKey to objectForKey_("threeServerName")
+        tell defaults to set threeServerAddrKey to objectForKey_("threeServerAddr")
+        tell defaults to set threeEnrollKeyKey to objectForKey_("threeEnrollKey")
+
+        tell defaults to set fourServerKey to objectForKey_("fourServerName")
+        tell defaults to set fourServerAddrKey to objectForKey_("fourServerAddr")
+        tell defaults to set fourEnrollKeyKey to objectForKey_("fourEnrollKey")
+
+        set oneServerName to (oneServerKey as string)
+        set oneServerAddr to (oneServerAddrKey as string)
+        set oneEnrollKey to (oneEnrollKeyKey as string)
         
-        set prodServer to (prodServerKey as string)
-        set testServer to (testServerKey as string)
-        set devServer to (devServerKey as string)
-        set prodEnrollK to (prodEnrollKeyKey as string)
-        set testEnrollK to (testEnrollKeyKey as string)
-        set devEnrollK to (devEnrollKeyKey as string)
+        set twoServerName to (twoServerKey as string)
+        set twoServerAddr to (twoServerAddrKey as string)
+        set twoEnrollKey to (twoEnrollKeyKey as string)
+
+        set threeServerName to (threeServerKey as string)
+        set threeServerAddr to (threeServerAddrKey as string)
+        set threeEnrollKey to (threeEnrollKeyKey as string)
         
+        set fourServerName to (fourServerKey as string)
+        set fourServerAddr to (fourServerAddrKey as string)
+        set fourEnrollKey to (fourEnrollKeyKey as string)
+
         display dialog "Preferences Saved" buttons "OK" default button 1
         prefsWindow's orderOut_(me)
     end savePrefs_
@@ -182,6 +202,7 @@ script AppDelegate
     on error
         log "error step 8"
     end try
+    
     
     set my statusText to "Settings changed.  Running Re-enrollment now."
     if (runPolicy as string) is "true" as string then set doPolicy to " "
